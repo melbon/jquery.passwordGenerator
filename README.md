@@ -29,7 +29,7 @@ $(selector).passwordGenerator();
 }
 ```
 ## Demo
-<a href="http://codepen.io/mel/pen/kzJho" target="_blank">codepen.io/mel/pen/kzJho</a>
+<a href="http://codepen.io/mel/full/kzJho" target="_blank">codepen.io/mel/full/kzJho</a>
 ## License
 March 2014 <br />
 passwordGenerator 1.1.0 <br />
