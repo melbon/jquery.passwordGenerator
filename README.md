@@ -16,14 +16,14 @@ $(selector).passwordGenerator();
 ## Configuration
 ```javascript
 {
-    upperCase: , // default: true;
-    lowerCase: , // default: true;
-    numbers: , // default: true;
-    punctuation: , // default: true;
-    size: , // default: 8
+    upperCase: boolean, // default: true;
+    lowerCase: boolean, // default: true;
+    numbers: boolean, // default: true;
+    punctuation: boolean, // default: true;
+    size: number, // default: 8
     wrapperClass: "", // default: "generatorWrapper";
     button: {
-        isVisible: , // default: true;
+        isVisible: boolean, // default: true;
         text: "" // default: "New Password";
     }
 }
