@@ -1,6 +1,6 @@
 /*
  * March 2014
- * passwordGenerator 1.1.0
+ * passwordGenerator 1.1.1
  * @author Mario Vidov
  * @url http://vidov.it
  * @twitter MarioVidov
@@ -34,10 +34,10 @@ $.fn.passwordGenerator = function(options) {
         $(".generatePassword").click(function() {
             init();
         });
-        $(selector).click(function() {
-            $(this).select();
-        });
     }
+    $(selector).click(function() {
+        $(this).select();
+    });
 
     for(i = 0; i < 33; i++)
         chars[ chars.length ] = 0;
