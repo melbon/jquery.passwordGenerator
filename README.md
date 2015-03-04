@@ -45,7 +45,7 @@ default: 8
 options: integer
 ```
 #####wrapperClass
-custom class to select wrapper
+custom class to select
 ```javascript
 default: "generatorWrapper"
 options: string
