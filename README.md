@@ -50,8 +50,7 @@ custom class to select wrapper
 default: "generatorWrapper"
 options: string
 ```
-#####button
-button properties
+#####button: {
 ######isVisible
 has visible button
 ```javascript
@@ -64,6 +63,7 @@ button text
 default: "New Password"
 options: string
 ```
+##### }
 ## Demo
 <a href="http://codepen.io/mel/full/kzJho" target="_blank">codepen.io/mel/full/kzJho</a>
 ## License
