@@ -8,7 +8,7 @@
  */
 
 $.fn.passwordGenerator = function(options) {
-    var settings = $.extend({
+    var settings = $.extend(true, {
         upperCase: true,
         lowerCase: true,
         numbers: true,
