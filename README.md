@@ -14,50 +14,50 @@ bower install passwordgenerator
 $(selector).passwordGenerator();
 ```
 ## Configuration
-#####upperCase
+#### upperCase
 has uppercase symbols in generated password
 ```javascript
 default: true
 options: boolean / true or false
 ```
-#####lowerCase
+#### lowerCase
 has lowercase symbols in generated password
 ```javascript
 default: true
 options: boolean / true or false
 ```
-#####numbers
+#### numbers
 has numbers symbols in generated password
 ```javascript
 default: true
 options: boolean / true or false
 ```
-#####punctuation
+#### punctuation
 has punctuation symbols in generated password
 ```javascript
 default: true
 options: boolean / true or false
 ```
-#####size
+#### size
 password length
 ```javascript
 default: 8
 options: integer
 ```
-#####wrapperClass
+#### wrapperClass
 custom class to select
 ```javascript
 default: "generatorWrapper"
 options: string
 ```
-#####button: {
-######isVisible
+#### button: {
+##### isVisible
 has visible button
 ```javascript
 default: true
 options: boolean / true or false
 ```
-######text
+##### text
 button text
 ```javascript
 default: "New Password"
